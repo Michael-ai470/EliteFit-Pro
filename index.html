@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteFit Pro - Fitness Club</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>EliteFit Pro</h1>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#programs">Programs</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#trainers">Trainers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Welcome to <span class="brand-highlight">EliteFit Pro</span></h2>
+            <p class="hero-subtitle">Premium Fitness. Professional Growth.</p>
+            <p class="hero-description">
+                Join a high-end fitness community where <span class="highlight">technology</span>, <span class="highlight">expertise</span>, and <span class="highlight">precision training</span> drive your transformation.<br>
+                <span class="highlight-2">Tailored programs, dedicated coaches, and cutting-edge facilities await you.</span>
+            </p>
+            <a href="#programs" class="cta-button">Explore Our Programs</a>
+        </div>
+        <svg class="hero-wave" viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#7c3aed" fill-opacity="0.18" d="M0,80 C360,160 1080,0 1440,80 L1440,120 L0,120 Z"></path>
+            <path fill="#a78bfa" fill-opacity="0.12" d="M0,100 C400,180 1040,20 1440,100 L1440,120 L0,120 Z"></path>
+        </svg>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs-section section">
+        <h2>Our Signature Programs</h2>
+        <div class="program-grid">
+            <div class="program-card">
+                <h3>Elite Strength</h3>
+                <p>High-performance weight training with professional coaches.</p>
+            </div>
+            <div class="program-card">
+                <h3>Precision Cardio</h3>
+                <p>Heart-rate guided cardio sessions with real-time tracking.</p>
+            </div>
+            <div class="program-card">
+                <h3>Personalized Recovery</h3>
+                <p>Advanced recovery solutions including cryotherapy and stretching labs.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section section">
+        <h2>What Our Members Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"EliteFit Pro transformed my fitness journey. The trainers are world-class and the atmosphere is motivating!"</p>
+                <div class="testimonial-user">
+                    <img src="images/user1.jpeg" alt="User 1">
+                    <span>Sarah O.</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"The personalized programs and recovery options are unmatched. I feel stronger and healthier every day."</p>
+                <div class="testimonial-user">
+                    <img src="images/user2.jpeg" alt="User 2">
+                    <span>James T.</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"State-of-the-art equipment and a supportive community. Highly recommend EliteFit Pro!"</p>
+                <div class="testimonial-user">
+                    <img src="images/user3.jpeg" alt="User 3">
+                    <span>Linda K.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers-section section">
+        <h2>Meet Our Expert Trainers</h2>
+        <div class="trainers-grid">
+            <div class="trainer-card">
+                <img src="images/trainer1.jpeg" alt="Trainer 1">
+                <h3>Coach Alex</h3>
+                <p>Strength & Conditioning</p>
+            </div>
+            <div class="trainer-card">
+                <img src="images/trainer2.jpeg" alt="Trainer 2">
+                <h3>Coach Maya</h3>
+                <p>Cardio & Endurance</p>
+            </div>
+            <div class="trainer-card">
+                <img src="images/trainer3.jpeg" alt="Trainer 3">
+                <h3>Coach Daniel</h3>
+                <p>Recovery Specialist</p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+        <h2>Get In Touch</h2>
+        <form id="contactForm" action="https://formspree.io/f/xyzjvklq" method="POST">
+            <div>
+                <input type="text" id="name" name="name" placeholder=" " required>
+                <label for="name">Your Name</label>
+            </div>
+            <div>
+                <input type="email" id="email" name="email" placeholder=" " required>
+                <label for="email">Your Email</label>
+            </div>
+            <div>
+                <textarea id="message" name="message" placeholder=" " required></textarea>
+                <label for="message">Your Message</label>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 EliteFit Pro. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
